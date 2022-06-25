@@ -27,5 +27,8 @@
   },
   "bugs": {
     "url": "https://github.com/kainonly/ngx-howler/issues"
+  },
+  "devDependencies": {
+    "@angular/cli": "^14.0.3"
   }
 }
