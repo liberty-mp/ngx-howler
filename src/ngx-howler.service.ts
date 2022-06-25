@@ -8,7 +8,7 @@ declare let document: Document;
 
 @Injectable()
 export class NgxHowlerService {
-  private loaded: AsyncSubject<any>;
+  private loaded!: AsyncSubject<any>;
   private audio: Map<string, HowlClass> = new Map<string, HowlClass>();
 
   /**
@@ -45,7 +45,7 @@ export class NgxHowlerService {
    * get audio
    */
   get(id: string): HowlClass {
-    return this.audio.get(id);
+    return this.audio.get(id)!;
   }
 
   /**
@@ -55,7 +55,7 @@ export class NgxHowlerService {
     if (!this.audio.has(id)) {
       return true;
     }
-    this.audio.get(id).off();
+    this.audio.get(id)?.off();
     return this.audio.delete(id);
   }
 }
