@@ -4,8 +4,8 @@
   "version": "0.0.1",
   "author": "@liberty-mp",
   "peerDependencies": {
-    "@angular/common": "^14.0.3",
-    "@angular/core": "^14.0.3",
+    "@angular/common": "^>=15.0.0 <16.0.0",
+    "@angular/core": ">=15.0.0 <16.0.0",
     "@types/howler": "^2.2.1"
   },
   "scripts": {
@@ -32,10 +32,10 @@
   "devDependencies": {
     "@angular-devkit/build-angular": "^14.2.10",
     "@angular/cli": "^14.0.3",
-    "@angular/compiler": "^14.0.3",
-    "@angular/compiler-cli": "^14.0.3",
+    "@angular/compiler": "^15.0.2",
+    "@angular/compiler-cli": "^15.0.2",
     "ng-packagr": "^14.2.2",
-    "typescript": "^4.7.4"
+    "typescript": "^4.8.4"
   },
   "publishConfig": {
     "access": "public"
