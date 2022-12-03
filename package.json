@@ -1,7 +1,7 @@
 {
   "name": "@libertymp/ngx-howler",
   "description": "Audio library based on howler.js for Angular",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "@liberty-mp",
   "peerDependencies": {
     "@angular/common": "^>=15.0.0 <16.0.0",
@@ -30,11 +30,11 @@
     "url": "https://github.com/liberty-mp/ngx-howler/issues"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^14.2.10",
-    "@angular/cli": "^14.0.3",
+    "@angular-devkit/build-angular": "^15.0.2",
+    "@angular/cli": "^15.0.2",
     "@angular/compiler": "^15.0.2",
     "@angular/compiler-cli": "^15.0.2",
-    "ng-packagr": "^14.2.2",
+    "ng-packagr": "^15.0.1",
     "typescript": "^4.8.4"
   },
   "publishConfig": {
