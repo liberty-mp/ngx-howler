@@ -1,7 +1,7 @@
 {
   "name": "@libertymp/ngx-howler",
   "description": "Audio library based on howler.js for Angular",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "author": "@liberty-mp",
   "peerDependencies": {
     "@angular/common": "^18.2.8",
