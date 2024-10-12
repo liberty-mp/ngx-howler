@@ -4,8 +4,8 @@
   "version": "1.0.1",
   "author": "@liberty-mp",
   "peerDependencies": {
-    "@angular/common": "^17.3.12",
-    "@angular/core": "17.3.12",
+    "@angular/common": "^18.2.8",
+    "@angular/core": "18.2.8",
     "@types/howler": "^2.2.1"
   },
   "scripts": {
@@ -30,11 +30,11 @@
     "url": "https://github.com/liberty-mp/ngx-howler/issues"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^17.3.10",
-    "@angular/cli": "^17.3.10",
-    "@angular/compiler": "^17.3.12",
-    "@angular/compiler-cli": "^17.3.12",
-    "ng-packagr": "^17.3.0",
+    "@angular-devkit/build-angular": "^18.2.8",
+    "@angular/cli": "^18.2.8",
+    "@angular/compiler": "^18.2.8",
+    "@angular/compiler-cli": "^18.2.8",
+    "ng-packagr": "^18.2.1",
     "typescript": "^5.4.5"
   },
   "publishConfig": {
